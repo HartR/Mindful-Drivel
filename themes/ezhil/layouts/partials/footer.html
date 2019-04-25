@@ -1,0 +1,21 @@
+<div class="footer wrapper">
+	{{ if .Site.Author.name }}
+            {{ if .Site.Author.website }}
+              <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
+            {{ else }}
+              {{ .Site.Author.name }}
+            {{ end }}
+          {{ end }}
+
+          &nbsp;&bull;&nbsp;&copy;
+          {{ if .Site.Params.since }}
+            {{ .Site.Params.since }} - {{ .Site.LastChange.Format "2006" }}
+          {{ else }}
+            {{ .Site.LastChange.Format "2006" }}
+          {{ end }}
+
+          {{ if .Site.Title }}
+            &nbsp;&bull;&nbsp;
+            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+	{{ end }}
+</div>

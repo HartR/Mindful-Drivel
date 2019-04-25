@@ -1,0 +1,68 @@
+baseURL = "https://www.hartrussell.com"
+languageCode = "en-us"
+title = "Mindful Drivel"
+theme = "ezhil"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	#subtitle = "Some Thoughts"
+	# Number of posts to show in recent posts list.
+	recentPostsCount = 10
+	# Content types which are excluded from recent posts and archive page.
+	excludedTypes = ["page"]
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+
+[Author]
+    name = "Hart Russell"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/HartR"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/hartcranerussell"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://instagram.com/hortisimo"
+
+[[params.social]]
+name = "Snapchat"
+icon = "aperture"
+url = "https://www.snapchat.com/add/hart_russell"
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:hartcranerussell@gmail.com"
+
+[taxonomies]
+   tag = "tags"
