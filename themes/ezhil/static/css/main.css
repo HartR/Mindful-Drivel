@@ -2,7 +2,7 @@ body {
     background: #F7CE68;
     font-family: "ubuntu", sans-serif;
     font-weight: 400;
-	color: #333;
+	color: #ed68f7;
 	line-height: 1.6;
 	font-size: 16px;
 }
@@ -226,7 +226,7 @@ ul {
 	font-size: 0.75rem;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #999;
+	color: #687df7;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
 }
@@ -239,7 +239,7 @@ ul {
 .post .post-header .meta,
 .list .posts .post .meta {
 	font-size: 0.725rem;
-	color: #999;
+	color: #687df7;
 	margin-bottom: 4px;
 }
 
@@ -264,7 +264,7 @@ ul {
 .footer {
 	text-align: right;
 	font-size: 0.75em;
-    color: #333;
+    color: #ed68f7;
 	border-top: 1px solid #f4f4f4;
     padding: 20px 0;
     margin-top: 40px;
