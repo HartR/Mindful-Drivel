@@ -2,7 +2,7 @@ body {
     background: #F7CE68;
     font-family: "ubuntu", sans-serif;
     font-weight: 400;
-	color: #ed68f7;
+	color: #333;
 	line-height: 1.6;
 	font-size: 16px;
 }
@@ -226,7 +226,7 @@ ul {
 	font-size: 0.75rem;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #687df7;
+	color: #a00;
 	margin-bottom: 20px;
 	letter-spacing: 1px;
 }
@@ -239,9 +239,9 @@ ul {
 .post .post-header .meta,
 .list .posts .post .meta {
 	font-size: 0.725rem;
-	color: #687df7;
+	color: #a00;
 	margin-bottom: 4px;
-}
+}/*where this is used: date of posts*/
 
 .post .post-header {
 	margin-bottom: 30px;
@@ -264,11 +264,11 @@ ul {
 .footer {
 	text-align: right;
 	font-size: 0.75em;
-    color: #ed68f7;
+    color: #a00;
 	border-top: 1px solid #f4f4f4;
     padding: 20px 0;
     margin-top: 40px;
-}
+}/*used for: text at bottom of page*/
 
 .page-title {
     margin-bottom: 0;
