@@ -1,5 +1,5 @@
 ---
-title: "Beautiful Quotes: Borges on Eleaticism"
+title: "Beautiful Quotes: Borges on Eleatics"
 date: 2019-05-01T09:19:56-07:00
 draft: false
 tags: [quotations]

@@ -64,5 +64,10 @@ name = "Email"
 icon = "mail"
 url = "mailto:hartcranerussell@gmail.com"
 
+[[params.social]]
+name = "goodreads"
+icon = "book-open"
+url = "https://www.goodreads.com/user/show/38546479-hart-russell"
+
 [taxonomies]
    tag = "tags"
