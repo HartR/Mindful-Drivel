@@ -3,6 +3,7 @@ title: "Beautiful Quotes: Borges on Eleatics"
 date: 2019-05-01T09:19:56-07:00
 draft: false
 tags: [quotations]
+keywords: [borges, eleatics, Tlön]
 ---
 
 >"Hume noted for all time that Berkeley's arguments did not admit the slightest refutation nor did they cause the slightest conviction. This dictum is entirely correct in its application to the earth, but entirely false in Tlön. The nations of this planet are congenitally idealist. Their language and the derivations of their language --religion, letters, metaphysics --all presuppose idealism. The world for them is not a concourse of objects in space; it is a heterogeneous series of independent acts. It is successive and temporal, not spatial. There are no nouns in Tlön's conjectural Ursprache, from which the 'present' languages and the dialects are derived: there are impersonal verbs, modified by monosyllabic suffixes (or prefixes) with an adverbial value. For example: there is no word corresponding to the word "moon," but there is a verb which in English would be 'to moon" or "to moonate.' 'The moon rose above the river' is hlör u fang axaxaxas mlö, or literally: 'upward behind the on-streaming it mooned'...
