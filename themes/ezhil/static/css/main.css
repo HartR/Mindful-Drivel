@@ -2,7 +2,7 @@ body {
     background: #4ABDAC;
     font-family: "ubuntu", sans-serif;
     font-weight: 400;
-	color: #333;
+	color: #242222;
 	line-height: 1.6;
 	font-size: 16px;
 }/*color used for: text color on non links*/
@@ -30,7 +30,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #DFDCE3;
     margin: 1rem 0;
     padding: 0
 }
@@ -185,8 +185,8 @@ ul {
 }
 
 .header nav {
-	margin-top: 20px;
-	border-top: 1px solid #f4f4f4;
+	margin-top: 5px;
+	border-top: 1px solid #DFDCE3;
 }
 
 .header nav ul,
@@ -203,13 +203,13 @@ ul {
     list-style: none;
     margin-left: 0;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     text-transform: capitalize;
 }
 
 .header .site-description {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 }
 
 .header .site-description nav {
@@ -219,8 +219,10 @@ ul {
 }
 
 .header .site-description nav ul svg {
-	max-height: 15px;
-}
+    max-height: 35px;
+    padding-right: 5px;
+    padding-top: 5px;
+}/*social media icons*/
 
 .section .section-header {
 	font-size: 0.75rem;
@@ -238,7 +240,7 @@ ul {
 .recent-posts .posts .post .meta,
 .post .post-header .meta,
 .list .posts .post .meta {
-	font-size: 0.725rem;
+	font-size: 0.9rem;
 	color: #DFDCE3;
 	margin-bottom: 4px;
 }/*used for: date of posts*/
@@ -265,7 +267,7 @@ ul {
 	text-align: right;
 	font-size: 0.75em;
     color: #DFDCE3;
-	border-top: 1px solid #f4f4f4;
+	border-top: 1px solid #DFDCE3;
     padding: 20px 0;
     margin-top: 40px;
 }/*used for: text at bottom of page*/
