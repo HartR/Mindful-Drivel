@@ -1,7 +1,7 @@
 baseURL = "https://hartrussell.com/"
 languageCode = "en-us"
 title = "Mindful Drivel"
-theme = "ezhil"
+theme = "hEart"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
