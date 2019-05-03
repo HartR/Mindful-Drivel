@@ -1,10 +1,10 @@
 body {
     background: #4ABDAC;
     font-family: "ubuntu", sans-serif;
-    font-weight: 400;
+    font-weight: 330;
 	color: #242222;
 	line-height: 1.6;
-	font-size: 16px;
+	font-size: 17px;
 }/*color used for: text color on non links*/
 
 a, a:hover {
@@ -53,11 +53,11 @@ textarea {
 blockquote {
     margin-left: 1rem;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
     border-color: #DFDCE3;
-    padding-left: 20px
+    padding-left: 15px
 }
 
 blockquote cite {
