@@ -5,11 +5,14 @@
 <body>
 	<div class="container wrapper list">
 		{{ partial "head.html" . }}
+		{{- with .Site.Params.Social -}}
+		<script>feather.replace()</script>
+		{{- end -}}
 
 		{{ if isset .Data "Term" }}
 			<h1>Entries tagged - "{{.Data.Term}}"</h1>
 		{{ else }}
-			<h3 class="page-title">All articles</h3>
+			<h3 class="page-title">All Posts</h3>
 		{{ end }}
 
 		<ul class="posts">
@@ -23,7 +26,6 @@
 			{{- end -}}
 		</ul>
 	</div>
-
 	{{ partial "footer.html" . }}
 </body>
 

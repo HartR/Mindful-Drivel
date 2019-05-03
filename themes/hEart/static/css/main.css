@@ -234,7 +234,8 @@ ul {
 }/*used for: "recent posts" text */
 
 .recent-posts .posts .post {
-	margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .recent-posts .posts .post .meta,
@@ -242,7 +243,8 @@ ul {
 .list .posts .post .meta {
 	font-size: 0.9rem;
 	color: #DFDCE3;
-	margin-bottom: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
 }/*used for: date of posts*/
 
 .post .post-header {
