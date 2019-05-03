@@ -1,4 +1,4 @@
-baseURL = "https://www.hartrussell.com/"
+baseURL = "https://hartrussell.com/"
 languageCode = "en-us"
 title = "Mindful Drivel"
 theme = "ezhil"
@@ -15,6 +15,8 @@ pygmentscodefencesguesssyntax = true
 	excludedTypes = ["page"]
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
+	author = "Hart Russell"
+	description = "Personal website of Hart Russell"
 
 [Author]
     name = "Hart Russell"
@@ -25,7 +27,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Posts"
 url = "/posts"
 weight = 2
 
@@ -35,9 +37,14 @@ url = "/about"
 weight = 3
 
 [[menu.main]]
+name = "Pictures"
+url = "/image-gallery"
+weight = 4
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 5
 
 [[params.social]]
 name = "Github"
@@ -71,3 +78,6 @@ url = "https://www.goodreads.com/user/show/38546479-hart-russell"
 
 [taxonomies]
    tag = "tags"
+
+enableRobotsTXT = true
+canonifyURLs = true

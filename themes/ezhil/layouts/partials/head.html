@@ -1,4 +1,5 @@
 <div class="header">
+	{{ partial "seo_schema" . }}
 	<h1 class="site-title">{{ .Site.Title }}</h1>
 	<div class="site-description">
 		{{- if isset .Site.Params "subtitle" -}}
