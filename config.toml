@@ -62,11 +62,6 @@ icon = "instagram"
 url = "https://instagram.com/hortisimo"
 
 [[params.social]]
-name = "Snapchat"
-icon = "aperture"
-url = "https://www.snapchat.com/add/hart_russell"
-
-[[params.social]]
 name = "Email"
 icon = "mail"
 url = "mailto:hartcranerussell@gmail.com"
@@ -75,6 +70,11 @@ url = "mailto:hartcranerussell@gmail.com"
 name = "goodreads"
 icon = "book-open"
 url = "https://www.goodreads.com/user/show/38546479-hart-russell"
+
+[[params.social]]
+name = "Calendar"
+icon = "calendar"
+url = "https://calendar.google.com/calendar?cid=aG9ydGlzaW1vQGdtYWlsLmNvbQ"
 
 [taxonomies]
    tag = "tags"

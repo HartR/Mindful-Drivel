@@ -10,7 +10,7 @@ Grid Layout Styles
 .gallery {
     overflow: hidden;
     margin: 10px;
-    max-width: 768px;
+    max-width: 1024px;
 }
 .gallery .box {
     float: left;
@@ -33,7 +33,7 @@ Grid Layout Styles
         padding-bottom: 33.3%; /*  */
     }
 }
-@media only screen and (min-width : 9999px) {
+@media only screen and (min-width : 500px) {
    /* Medium desktop: 4 tiles */
    .box {
       width: 25%;
